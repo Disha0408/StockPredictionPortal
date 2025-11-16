@@ -1,11 +1,18 @@
+  import Header from './components/Header'
+  import Main from './components/Main'
+  import Footer from './components/Footer'
+  import './assets/css/style.css'
 
-function App() {
+  function App() {
 
-  return (
-    <>
-     
-    </>
-  )
-}
+    return (
+      <>
+      <Header/>
+      <Main/>
+      <Footer/>
+    
+      </>
+    )
+  }
 
-export default App
+  export default App
