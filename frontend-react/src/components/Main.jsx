@@ -8,7 +8,7 @@ const Main = () => {
      <div className='p-5 text-center bg-light-dark rounded'>
       <h1 className='text-light'>Stock Prediction Portal</h1>
       <p className='text-light lead'>This stock prediction application utilize machine learning techniques, specifically employing keras, and LSTM model,integrated within the Django Framework.It forecast future stock prices by analyzing 100-day and 200-day moving averages,essential indicators widely used by stock analyst to inform trading and investment decision.</p>
-     <Button text='Login Now'class='btn-info' url='/login'/>
+     <Button text='Explore Now'class='btn-info' url='/dashboard'/>
      </div>
    </div>
    </>
